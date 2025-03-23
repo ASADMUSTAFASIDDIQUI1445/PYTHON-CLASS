@@ -1,0 +1,10 @@
+# CLASS 01
+name: str = "Asad"
+age: int = 37
+is_active: bool = True
+
+# yahan men variable ko override ker rha hain
+
+name = "Sir ASAD"
+
+print(name)
