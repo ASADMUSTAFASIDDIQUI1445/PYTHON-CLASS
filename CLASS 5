@@ -1,0 +1,19 @@
+#class 5
+#python marksheet using (for loop)
+#list of students marksheets
+percentage =int(input("enter a percentage"))
+
+if percentage >=90:
+    print("Grade rewaraded is:A1")
+elif percentage >=80:
+    print("Grade rewaraded is:A") 
+elif percentage >=70:
+    print("Grade rewaraded is:B")
+elif percentage >=60:
+    print("Grade rewaraded is:C")
+elif percentage >=50:
+    print("Grade rewaraded is:D")
+elif percentage >=40:
+    print("Grade rewaraded is:E")
+else:
+    print ("Grade awarded is:FAIL")
