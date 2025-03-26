@@ -90,3 +90,26 @@ print(result)
 # final_result = 20 + 20
 final_result = result / 20
 print(final_result)
+#Calulator
+print ("Python Calculator")
+num1 = float(input("number:"))
+print ("1.for add (+):")
+print ("2.for sub (-):")# Default Parameter
+print ("3.for multiply (*):")
+print ("4.for divd (/):")
+print ("5.for modulus/percentage (%):")
+print ("6.for exponent (**):")
+choice = input("Eneter operator:") 
+num2 = float(input("second number:"))
+print("number ")
+
+if choice == '1':
+   print (f"{num1}+{num2}+{num1+num2}")
+elif choice == '2':
+   print (f"{num1}-{num2}={num1-num2}")
+elif choice == '3':
+   print (f"{num1}X{num2}={num1 * num2}")
+elif choice == '4':
+   print (f"{num1}/{num2}={num1/num2}")
+else:
+    print("Invalid operator")
