@@ -1,0 +1,43 @@
+#CLASS 9
+#error handling 
+# abnorml termination
+#try except 
+num: int = 10
+num: int = 0
+
+result = num / num2
+print(result)
+# EXCEPT EXPECTION AS ERROR (e)
+try:
+    result = num /num2 
+    print(result)
+except Exception as e:
+    print(e)
+
+    #types of error 
+    #key  error
+    #import error
+    #index error
+    #value error
+    #type error
+    #ZERO DIVISION ERROR
+    try:
+       num1 = 10
+       num2 = 0
+       result = num1 / num2
+       print(result)
+    except ZeroDivisionError:
+      print("this is zero divison error")
+    except IndexError:
+      print("this is error with index")
+    #list k ander error
+    list = ["Asad "," Abdul samad "," Saad" , "moazaam"," Muneeb"] 
+    try:
+        result = list[1]
+        print(result)
+    except ZeroDivisionError:
+        print("this is zero division error")
+    except IndexError:
+        print ("this error with index")
+
+        
