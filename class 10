@@ -1,0 +1,62 @@
+#DOC STRING 
+def add(num1:int,num2:int)->int:
+   return num1 +num2
+result=add(5,7)
+print(add.__doc__)
+print(result)
+
+#SET METHOD;
+#ADD
+#REMOVE
+#DISCAED
+#POP
+#UNION
+#INTERSECTION
+
+#ADD
+names_set = {"Asad","Abdul Samad","Muneeb","Aisha"}
+names_set.add("Atta")
+print(names_set)
+
+#REMOVE
+names_set ={"Asad","Abdul Samad","Aisha","Atta","Muneeb"}
+names_set.remove("Asad")
+print(names_set)
+
+#DISCARD
+names_set ={"Asad","atta","aisha","Atif","Abdul Samad"}
+names_set.discard( "Asad")
+print("discard:",names_set) 
+
+#POP
+names_set ={"Asad","Atif","Aisha","Atta","Adul Samad"}
+names_set.pop()
+print(names_set) 
+
+#POP WITH UNION
+num_set1 ={1,2,3,4,5}
+num_set2 ={6,7,8,9,10}
+result=num_set1.union(num_set2)
+print("result",result) 
+
+
+
+#INTERSECTION
+
+num_set1 ={1,2,3,4,5}
+num_set2 ={6,7,8,9,10}#LOCAL & GLOBAL VARIABLE
+#LOCAL VARIABLE
+def my_func():
+    x=50
+    print("INSIDE FUNCTION",x)
+my_func()
+#print ("outside function",x) error generat
+#GLOBAL VARIABLE
+Y=100
+def function():
+    print("INSIDE FUNCTION",Y)
+function()
+print("OUTSIDE FUNCTION",Y)
+result=num_set2.intersection(num_set1)
+print("result",result)
+
