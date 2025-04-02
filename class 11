@@ -1,0 +1,97 @@
+#class 11
+num: int = 10
+
+if num == 10:
+    print("number is greater than 10")
+    num = 10
+else:
+    print("number is less than 10") 
+     # if condition
+
+# statement
+# statement if condition else statement
+num: int = 9
+print ("num is greater than 10") if num> 10  else print ("num is less than 10")
+#3
+num = 10
+#num 2 agar condition is true value 1 else valve 2
+num2 =20 if num < 10 else 20
+print("num >>>,num2")
+
+#enumarated Function 
+#        0           ,  1    ,  2
+name = ["Abdul Samad","Asad","Muneeb" ]
+for name in  name:
+  print (name)
+
+
+name = ["Abdul Samad", "Asad" ,"Muneeb"]names = ["Asad","Abdul Samad","Muneeb"]
+for name in name:
+  if names[1] == "Abdul Samad":
+     print ("salam Abdul Samad")
+     print (name)
+
+name = ["Asad","Abdul Samad","Muneeb"]
+#print (name [1])
+index = 0
+for name in name:
+    print ("index",index)
+    print (name)
+    index = index + 1
+
+name = ["Asad","Abdul Samad","Muneeb"]
+index = 1
+for name in name :
+    print  (f"name {index}:{name}")
+
+name = ["Asad","Abdul samad","Muneeb"]
+for index ,name in enumerate(names):
+    print (f"name {index}:{name}")
+
+#loop
+numbers = [1,2,3,4,5,6,7,8,9,10]
+def square(num: int) :
+    return num * num
+new_list = []
+print
+for num in numbers:
+    print("num>>>",num)
+    print("calling square function")
+    num_sqr = square(num)
+    print("num_square>>>",num_sqr)
+    print("new_list>>>",new_list )
+
+# map mento zindigi
+
+numbers = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+def square(num: int) :
+    return num * num
+
+new_list = list(map(square,numbers))
+print(new_list)
+print ("numbers",numbers)
+print("new_list>>>",new_list)
+
+# map mento zindigi
+
+numbers = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+def square(num: int) :
+    return num * num
+
+new_list = list(map(square,numbers))
+print(new_list)
+print ("numbers",numbers)
+print("new_list>>>",new_list)
+
+map
+
+numbers =[1,2,3,4,5,6,7,8,9,10]
+def filter_function(num:int):
+    return num >3
+
+filtered_list =list(map(filter_function,numbers))
+print ("filtered_list",filtered_list)
+
+
+print (name[2])
+
